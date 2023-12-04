@@ -1,0 +1,45 @@
+
+
+.home-border-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: auto;
+    z-index: 1;
+    opacity: 72%;
+    pointer-events: none;
+}
+
+.home-description {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: inherit;
+    padding: 5rem;
+    margin-bottom: 8rem;
+    text-align: center;
+    color: rgb(235, 235, 235);
+    z-index: 2;
+}
+
+.home-text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    z-index: 2;
+    margin-bottom: 11rem;
+    width: 15%;
+    height: 4%;
+    border: none;
+    
+}

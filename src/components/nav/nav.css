@@ -1,6 +1,6 @@
 .header-announcement-bar-wrapper {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     width: 100%;
     box-sizing: border-box;
     padding-top: 2vw;
@@ -21,11 +21,14 @@
 }
 
 .header-nav {
+    background: transparent;
     flex-grow: 1;
     flex-shrink: 1;
     text-align: center;
     flex: 0 0 100%;
     margin: 2vw 0 0;
+    z-index: 2;
+
 }
 
 .header-nav-list {
@@ -37,4 +40,9 @@
     margin: 0 1vw;
     text-decoration: none;
     color: inherit;
+    pointer-events: auto;
+}
+
+.site-title {
+color: lightgrey;
 }
