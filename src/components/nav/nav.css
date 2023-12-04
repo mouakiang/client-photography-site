@@ -1,0 +1,40 @@
+.header-announcement-bar-wrapper {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    pointer-events: auto;    
+}
+
+.header-title-text {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.header-title-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-nav {
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+    flex: 0 0 100%;
+    margin: 2vw 0 0;
+}
+
+.header-nav-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.header-nav-item a {
+    margin: 0 1vw;
+    text-decoration: none;
+    color: inherit;
+}
