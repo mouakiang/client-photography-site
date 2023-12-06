@@ -11,8 +11,8 @@
 }
 
 .header-title-text {
-    font-family: monospace;
-    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 35px;
 }
 
 .header-title-text a {
@@ -42,6 +42,7 @@
     text-decoration: none;
     color: inherit;
     pointer-events: auto;
+    font-size: 20px;
 }
 
 .site-title {
