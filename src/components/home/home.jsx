@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import homeImg from '../../assets/02.jpg';
+import homeImg from '../../assets/03.jpg';
 
 export default function Home() {
   return (
@@ -12,11 +12,6 @@ export default function Home() {
         <br/> based in Sanger, CA</h1>
     </div>
     <a href='/gallery'><button className="home-button">View Gallery</button></a>
-    
-
      </div>
-
-
-    
   );
 }
