@@ -1,13 +1,14 @@
 import React from "react";
 import "./nav.css";
+import logo from '../../assets/1.png'
 
 export default function Nav() {
   return (
     <div className="header-nav">
       <div className="header-announcement-bar-wrapper">
         <div className="header-title-text">
-          <a id="site-title" href="/">
-            K Jane Moua Photography
+        <a id="logo" href="/">
+            <img src={logo} alt="logo" className="header-logo" />
           </a>
         </div>
       </div>
@@ -20,7 +21,7 @@ export default function Nav() {
             <a href="/about">About</a>
           </div>
           <div className="header-nav-item">
-            <a href="/bookings">Bookings</a>
+            <a href="/bookings">Contact</a>
           </div>
         </nav>
       </div>
