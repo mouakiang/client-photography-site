@@ -15,10 +15,10 @@ export default function Nav() {
       <div className="header-nav-wrapper">
         <nav className="header-nav-list">
           <div className="header-nav-item">
-            <a href="/gallery">Gallery</a>
+            <a href="/gallery">About</a>
           </div>
           <div className="header-nav-item">
-            <a href="/about">About</a>
+            <a href="/about">Gallery</a>
           </div>
           <div className="header-nav-item">
             <a href="/bookings">Contact</a>

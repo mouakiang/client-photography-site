@@ -47,11 +47,12 @@ color: lightgrey;
   .header-logo {
     width: 200px; 
     height: auto;
-    margin-right: 10px; 
-    margin-left: 10rem;
+  }
+
+  .header-text-title {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
   }
   
 
