@@ -22,7 +22,7 @@ export default function Nav() {
             <Link to="/gallery">Gallery</Link>
           </div>
           <div className="header-nav-item">
-            <Link tp="/contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </nav>
       </div>
