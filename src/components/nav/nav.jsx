@@ -16,7 +16,7 @@ export default function Nav() {
       <div className="header-nav-wrapper">
         <nav className="header-nav-list">
           <div className="header-nav-item">
-            <Link to="/about">About</Link>
+            {/* <Link to="/about">About</Link> */}
           </div>
           <div className="header-nav-item">
             <Link to="/gallery">Gallery</Link>

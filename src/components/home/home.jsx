@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import homeImg from "../../assets/03.jpg";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -12,11 +13,11 @@ export default function Home() {
             <br /> CENTRAL VALLEY, CA
           </h1>
         </div>
-        <a href="/gallery">
+        <Link to="/gallery">
           <button className="home-button">
             <h3 className="gallery-text">View Gallery</h3>
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   );
