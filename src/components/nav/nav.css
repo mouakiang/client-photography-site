@@ -3,7 +3,6 @@
     z-index: 1;
     width: 100%;
     box-sizing: border-box;
-    padding-top: 2vw;
     padding-bottom: 2vw;
     padding-left: 4vw;
     padding-right: 4vw;
@@ -45,7 +44,7 @@ color: lightgrey;
   }
   
   .header-logo {
-    width: 200px; 
+    width: 300px; 
     height: auto;
   }
 
